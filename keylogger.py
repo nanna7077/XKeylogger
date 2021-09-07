@@ -78,6 +78,8 @@ def listen():
         processes.append(subprocess.Popen(['xinput test {} > {}/.listenerservice/.listened{}'.format(keyboard, os.path.expanduser("~"), keyboard)], shell=True))
         
 def speak(sendtoserver=0):
+    if os.geteuid==0:
+        return
     files=[]
     for f in os.listdir(os.path.expanduser("~/.listenerservice")):
         if "listened" in f:
