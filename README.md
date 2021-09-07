@@ -13,6 +13,9 @@ View collected logs with:
 
 ```python keylogger.py speak```
 
+To delete collected data:
+
+```python keylogger.py clean```
 
 [Experimental]
 
