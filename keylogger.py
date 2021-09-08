@@ -123,8 +123,8 @@ def speak(sendtoserver=0):
 
 args=sys.argv[1:]
 if len(args) == 0:
-    print("[ERROR] No options given. Won't run. Choose to either 'LISTEN' or 'SPEAK'")
-    exit()
+    args.append('listen')
+    args.append('silent')
 for arg in args:
     if arg.lower().strip()=="listen":
         if 'silent' not in args:
