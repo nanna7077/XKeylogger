@@ -25,4 +25,4 @@ Autostart:
 or
 ```sudo python keylogger.py autostart```
 
-(Don't run as root otherwise)
+(Don't run as root except for setting up autostart)
