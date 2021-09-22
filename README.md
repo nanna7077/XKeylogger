@@ -1,5 +1,5 @@
 # Linux-Keylogger
-An simple keylogger for linux systems.
+An simple keylogger for linux systems (X window only).
 
 Run the keylogger with:
 
