@@ -41,7 +41,7 @@ def stayalive():
     start=datetime.datetime.now()
     while True:
         print('running', (datetime.datetime.now()-start).total_seconds())
-        if (datetime.datetime.now()-start).total_seconds() > 5:
+        if (datetime.datetime.now()-start).total_seconds() > 300:
             speak(1)
             break
 
